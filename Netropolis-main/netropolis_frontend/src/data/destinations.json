@@ -1,0 +1,290 @@
+[
+  {
+    "_id": {
+      "$oid": "65007122b9bfee81838cb452"
+    },
+    "title": "Mount Fuji",
+    "slug": "mount-fuji",
+    "description": "An iconic volcanic mountain and Japan's highest peak, offering breathtaking views and hiking opportunities.",
+    "category": "Natural Landmark",
+    "location": "Yamanashi Prefecture",
+    "likeCount": 249,
+    "viewCount": 3000,
+    "map": [
+      35.3606,
+      138.7274
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007136b9bfee81838cb454"
+    },
+    "title": "Hiroshima Peace Memorial Park",
+    "slug": "hiroshima-peace-memorial-park",
+    "description": "A memorial park dedicated to the legacy of Hiroshima's atomic bombing, featuring museums, monuments, and the A-Bomb Dome.",
+    "category": "Historical Site",
+    "location": "Hiroshima",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      34.3955,
+      132.4512
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007146b9bfee81838cb456"
+    },
+    "title": "Kyoto Imperial Palace",
+    "slug": "kyoto-imperial-palace",
+    "description": "Former residence of Japan's Imperial family, surrounded by beautiful gardens and traditional architecture.",
+    "category": "Historical Site",
+    "location": "Kyoto",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      35.0254,
+      135.7624
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007153b9bfee81838cb458"
+    },
+    "title": "Himeji Castle",
+    "slug": "himeji-castle",
+    "description": "A stunning UNESCO World Heritage Site, known for its white exterior and elegant design, often referred to as the White Heron Castle.",
+    "category": "Historical Site",
+    "location": "Himeji",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      34.8394,
+      134.6939
+    ],
+    "price": 1000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007160b9bfee81838cb45a"
+    },
+    "title": "Arashiyama Bamboo Grove",
+    "slug": "arashiyama-bamboo-grove",
+    "description": "A mesmerizing bamboo forest in Kyoto, offering serene walking paths and stunning natural beauty.",
+    "category": "Natural Landmark",
+    "location": "Kyoto",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      35.0154,
+      135.6739
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6500716cb9bfee81838cb45c"
+    },
+    "title": "Itsukushima Shrine",
+    "slug": "itsukushima-shrine",
+    "description": "A UNESCO World Heritage Site located on the island of Miyajima, known for its iconic 'floating' torii gate and scenic beauty.",
+    "category": "Sacred Place",
+    "location": "Miyajima",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      34.2953,
+      132.3194
+    ],
+    "price": 300,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007177b9bfee81838cb45e"
+    },
+    "title": "Nikko Toshogu Shrine",
+    "slug": "nikko-toshogu-shrine",
+    "description": "An opulent and intricately decorated shrine complex in Nikko, dedicated to Tokugawa Ieyasu, the founder of the Tokugawa shogunate.",
+    "category": "Sacred Place",
+    "location": "Nikko",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      36.7638,
+      139.5986
+    ],
+    "price": 1300,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007183b9bfee81838cb460"
+    },
+    "title": "Kiyomizu-dera Temple",
+    "slug": "kiyomizu-dera-temple",
+    "description": "A historic Buddhist temple in Kyoto, famous for its wooden stage that offers panoramic views of the city.",
+    "category": "Sacred Place",
+    "location": "Kyoto",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      34.9948,
+      135.7852
+    ],
+    "price": 400,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007192b9bfee81838cb462"
+    },
+    "title": "Senso-ji Temple",
+    "slug": "senso-ji-temple",
+    "description": "Tokyo's oldest temple, located in the Asakusa district, known for its vibrant atmosphere, shopping street, and iconic Kaminarimon Gate.",
+    "category": "Sacred Place",
+    "location": "Tokyo",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      35.7144,
+      139.7967
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6500719eb9bfee81838cb464"
+    },
+    "title": "Kenrokuen Garden",
+    "slug": "kenrokuen-garden",
+    "description": "One of Japan's most beautiful landscape gardens, featuring scenic ponds, bridges, teahouses, and seasonal floral displays.",
+    "category": "Natural Landmark",
+    "location": "Kanazawa",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      36.5613,
+      136.6562
+    ],
+    "price": 320,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071abb9bfee81838cb466"
+    },
+    "title": "Golden Pavilion (Kinkaku-ji)",
+    "slug": "golden-pavilion",
+    "description": "A stunning Zen Buddhist temple in Kyoto, featuring a golden pavilion set amidst beautiful gardens.",
+    "category": "Sacred Place",
+    "location": "Kyoto",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      35.0394,
+      135.7294
+    ],
+    "price": 400,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071ccb9bfee81838cb468"
+    },
+    "title": "Meiji Shrine",
+    "slug": "meiji-shrine",
+    "description": "A tranquil Shinto shrine located in the heart of Tokyo's bustling Shibuya district, dedicated to Emperor Meiji and Empress Shoken.",
+    "category": "Sacred Place",
+    "location": "Tokyo",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      35.6764,
+      139.6993
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071dab9bfee81838cb46a"
+    },
+    "title": "Toji Temple",
+    "slug": "toji-temple",
+    "description": "A UNESCO World Heritage Site in Kyoto, known for its towering pagoda, which is the tallest wooden tower in Japan.",
+    "category": "Sacred Place",
+    "location": "Kyoto",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      34.9819,
+      135.7477
+    ],
+    "price": 500,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071e4b9bfee81838cb46c"
+    },
+    "title": "Okinawa Churaumi Aquarium",
+    "slug": "okinawa-churaumi-aquarium",
+    "description": "One of the largest aquariums in the world, showcasing a diverse range of marine life, including whale sharks and manta rays.",
+    "category": "Museum",
+    "location": "Okinawa",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      26.6938,
+      127.8770
+    ],
+    "price": 1850,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071f1b9bfee81838cb46e"
+    },
+    "title": "Nara Park",
+    "slug": "nara-park",
+    "description": "A sprawling park in Nara, home to hundreds of freely roaming deer and several significant historical sites, including Todai-ji Temple and Kasuga Taisha Shrine.",
+    "category": "Nature Tourism",
+    "location": "Nara",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      34.6851,
+      135.8048
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6502b4a44090e057a59bd8df"
+    },
+    "title": "Hokkaido Shikotsu-Toya National Park",
+    "slug": "shikotsu-toya-national-park",
+    "description": "A national park in Hokkaido known for its volcanic landscapes, hot springs, and scenic beauty, including Lake Shikotsu and Mount Usu.",
+    "category": "Natural Landmark",
+    "location": "Hokkaido",
+    "likeCount": 300,
+    "viewCount": 400,
+    "map": [
+      42.6584,
+      141.3842
+    ],
+    "price": 0,
+    "__v": 0
+  }
+]
