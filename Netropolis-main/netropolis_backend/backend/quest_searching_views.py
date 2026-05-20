@@ -31,31 +31,16 @@ class QuestSearchingView(APIView):
     )
 
     def get(self, request, format=None):
+        from django.db.models import Q
         query = request.query_params.get('query', None)
-        # print(pk)
         if query is not None:
-            # code to get all quests
-            # quests = Quest.objects.all()
-            # sqldb_results = list(quests.values())
-            print(query)
-            search = self.qdrant.query_points(
-                collection_name="quests",
-                query=self.encoder.encode(query).tolist(),
-                limit=1000,)
-            vectordb_results = [hit.payload for hit in search.points]
-            for hit in search.points:
-                print(hit.payload, "score:", hit.score)
-            results = vectordb_results
-
-        #     try:
-        #         quest = Quest.objects.get(created_by=pk)
-        #         questlist = list(quest.values())
-        #         serializer = self.serializer_class(quest, many=False)
-        #     except MultipleObjectsReturned:
-        #         quests = Quest.objects.filter(created_by=pk)
-        #         questslist = list(quests.values())
-        #         print(list(quests.values()))
-        #         serializer = self.serializer_class(quests, many=True)
-            return Response(results, status=status.HTTP_200_OK)
+            # Search for quests where the query matches quest_name, description, or region (case-insensitive)
+            quests = Quest.objects.filter(
+                Q(quest_name__icontains=query) |
+                Q(description__icontains=query) |
+                Q(region__icontains=query)
+            )
+            serializer = self.serializer_class(quests, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
         else:
             return Response(status=status.HTTP_400_BAD_REQUEST)

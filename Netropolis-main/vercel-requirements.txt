@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+"""
+Vercel Python requirements for production deployment
+This file ensures all necessary packages for Vercel serverless execution are included
+"""
+
+# Django and DRF (core framework)
+Django==6.0.3
+djangorestframework==3.16.1
+djangorestframework-simplejwt==5.5.1
+drf-spectacular==0.29.0
+
+# CORS support
+django-cors-headers==4.9.0
+django-filter==25.2
+
+# Database
+psycopg2-binary==2.9.11
+
+# Environment and configuration
+python-dotenv==1.2.2
+
+# HTTP/API requests
+requests==2.32.5
+httpx==0.28.1
+
+# Data processing and ML
+numpy==2.4.3
+scipy==1.17.1
+pandas>=1.5.0
+scikit-learn==1.8.0
+torch==2.10.0
+transformers==5.3.0
+sentence-transformers==5.2.3
+
+# Vector database
+qdrant-client==1.17.0
+
+# Server
+gunicorn==25.1.0
+
+# Supporting libraries
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+Markdown==3.10.2
+PyYAML==6.0.3
+pydantic==2.12.5
+pydantic_core==2.41.5
+PyJWT==2.11.0
+
+# Network/protocol support
+certifi==2026.2.25
+charset-normalizer==3.4.5
+urllib3==2.6.3
+idna==3.11
+
+# GRPC support (for Qdrant)
+grpcio==1.78.0
+grpcio-tools==1.78.0
+protobuf==6.33.5
+
+# Async support
+anyio==4.12.1
+asgiref==3.11.1
+
+# Additional utilities
+click==8.3.1
+colorama==0.4.6
+tqdm==4.67.3
+filelock==3.25.0
+packaging==26.0
